@@ -1,0 +1,148 @@
+/*Fontes*/
+@font-face {
+    font-family: jetbrainsmono;
+    src: url(font/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Bold.ttf);
+}
+@font-face {
+    font-family: jersey25;
+    src: url(font/Jersey_25/Jersey25-Regular.ttf);
+}
+
+/*Navegação*/
+body {
+    background-color: #01AABA;
+    color: white;
+}
+nav {
+    background-color: #017DC8;
+    text-align: center;
+    margin: -10px -7px 50px;
+    padding: 20px 300px 20px 300px;
+}
+#logoSenacBranca {
+    margin: 10px 0 30px;
+}
+input {
+    border: none;
+    background-color: #017DC8;
+    color: white;
+}
+aside {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Header*/
+header {
+    text-align: center;
+}
+#destaque {
+    background-image: linear-gradient(to right, #2F2F93, #017DC8, #017DC8, #00994A, #D81721, #F56D20, #FFB813, #906000, #6BCFF8, #EF028D, #F499C1, #F499C1);/*Sim, isso é exigencia do cliente :(*/
+    margin: 20px -8px 80px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(63, 63, 63);
+}
+#dataEvento {
+    font-family: jetbrainsmono;
+    font-size: 25px;
+    margin-left: 600px;
+}
+#tituloPrincipal {
+    font-family: jersey25;
+    font-size: 120px;
+    letter-spacing: 4px;
+    margin: -20px 0px 50px 0px;
+}
+
+/*Main*/
+main {
+    text-align: center;
+}
+video {
+    margin: 50px;
+    border-radius: 50px;
+}
+#sobreOProjeto {
+    font-family: jersey25;
+    font-size: 70px;
+}
+#textoDoProjeto {
+    font-family: jetbrainsmono;
+    margin: 0 200px 0 200px;
+    text-align: justify;
+    font-size: 25px;
+}
+#setaSenac {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 150px;
+    display: flex;
+}
+#setaSenacBaixo {
+    position: absolute;
+    transform: rotate(180deg);
+    right: 150px;
+    top: 2000px;
+}
+article {
+    background-color: #F56D20;
+    margin: 200px -7px -300px;
+    height: 1400px;
+    border-radius: 100px 100px 0 0;
+    padding: 100px 0 150px 0;
+}
+#oqueVemPorAi {
+    font-family: jersey25;
+    font-size: 100px;
+}
+#textoDDS {
+    font-family: jetbrainsmono;
+    font-size: 25px;
+    margin: 0 150px 0 400px;
+    text-align: left;
+}
+#logoDoacaoDigitalSolidaria{
+    position: absolute;
+    left: 140px;
+    top: 2570px;
+}
+#logoEcoCircuito {
+    position: absolute;
+    left: 1000px;
+    top: 2850px;
+}
+#textoEcoCircuito {
+    font-family: jetbrainsmono;
+    font-size: 25px;
+    margin: 120px 400px 0 200px;
+    text-align: right;
+}
+#logoGuiaCognitivo {
+    position: absolute;
+    left: 140px;
+    top: 3100px;
+}
+#textoGC {
+    font-family: jetbrainsmono;
+    font-size: 25px;
+    margin: 70px 150px 0 410px;
+    text-align: left;
+}
+#logoVit {
+    position: absolute;
+    left: 1000px;
+    top: 3320px;
+}
+#textoVit {
+    font-family: jetbrainsmono;
+    font-size: 25px;
+    margin: 50px 400px 0 200px;
+    text-align: right;
+}
+
+/*Footer*/
+footer {
+    background-color: #017DC8;
+    margin: 0 -8px -8px;
+    box-shadow: 0 0 30px rgb(49, 49, 49);
+}
