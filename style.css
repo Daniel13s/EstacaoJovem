@@ -154,6 +154,43 @@ footer {
     width: 20%;
 }
 
+/*JavaScript*/
+#menu1 {
+    position: absolute;
+    border-radius: 0 0 10px 10px;
+    margin: 0 100px;
+    width: 150px;
+    height: 100px;
+    box-shadow: 2px 2px 0 black;
+    background-color: #017DC8;
+}
+#menu2 {
+    position: absolute;
+    border-radius: 0 0 10px 10px;
+    margin: 0 450px;
+    width: 150px;
+    height: 100px;
+    box-shadow: 2px 2px 0 black;
+    background-color: #017DC8;
+}
+#menu3 {
+    position: absolute;
+    border-radius: 0 0 10px 10px;
+    margin: 0 790px;
+    width: 150px;
+    height: 100px;
+    box-shadow: 2px 2px 0 black;
+    background-color: #017DC8;
+}
+#menu4 {
+    position: absolute;
+    border-radius: 0 0 10px 10px;
+    margin: 0 1150px;
+    width: 150px;
+    height: 100px;
+    box-shadow: 2px 2px 0 black;
+    background-color: #017DC8;
+}
 @media screen and (max-width: 980px){
     /*Nav*/
     input {

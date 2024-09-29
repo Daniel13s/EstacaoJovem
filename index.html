@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
+    <nav id="navegacao">
         <img src="images/senac.png" alt="Logo-Senac-Branca" id="logoSenacBranca"><br>
         <aside>
-            <input type="button" value="Institucional▼">
-            <input type="button" value="Curiosidades▼">
-            <input type="button" value="Turmas▼">
-            <input type="button" value="Roteiro do Projeto▼">
+            <input type="button" value="Institucional▼" onclick="institucional()">
+            <input type="button" value="Curiosidades▼" onclick="curiosidade()">
+            <input type="button" value="Turmas▼" onclick="turmas()">
+            <input type="button" value="Roteiro do Projeto▼" onclick="roteiroDoProjeto()">
         </aside>
     </nav>
     <header>
@@ -55,5 +55,6 @@
             <img class="logosBrancas" src="images/ecocircuitoBranca.png" alt="EcoCircuito"><img class="logosBrancas" src="images/ddsBranca.png" alt="DDS"><img class="logosBrancas" src="images/GDBranca.png" alt="GuiaCognitivo"><img class="logosBrancas" src="images/logoVitBranca.png" alt="Vit">
         </footer>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
