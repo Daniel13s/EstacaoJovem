@@ -8,11 +8,11 @@
     src: url(font/Jersey_25/Jersey25-Regular.ttf);
 }
 
-/*Navegação*/
 body {
     background-color: #01AABA;
     color: white;
 }
+/*Navegação*/
 nav {
     background-color: #017DC8;
     text-align: center;
@@ -29,6 +29,28 @@ input {
 aside {
     display: flex;
     justify-content: space-around;
+}
+#botoes {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#itens1 {
+    width: 160px;
+    height: 100px;
+}
+#itens2 {
+    width: 160px;
+    height: 100px;
+}
+#itens3 {
+    width: 160px;
+    height: 100px;
+}
+#itens4 {
+    width: 160px;
+    height: 100px;
 }
 
 /*Header*/
@@ -158,7 +180,6 @@ footer {
 #menu1 {
     position: absolute;
     border-radius: 0 0 10px 10px;
-    margin: 0 100px;
     width: 150px;
     height: 100px;
     box-shadow: 2px 2px 0 black;
@@ -167,7 +188,6 @@ footer {
 #menu2 {
     position: absolute;
     border-radius: 0 0 10px 10px;
-    margin: 0 450px;
     width: 150px;
     height: 100px;
     box-shadow: 2px 2px 0 black;
@@ -176,7 +196,6 @@ footer {
 #menu3 {
     position: absolute;
     border-radius: 0 0 10px 10px;
-    margin: 0 790px;
     width: 150px;
     height: 100px;
     box-shadow: 2px 2px 0 black;
@@ -185,7 +204,6 @@ footer {
 #menu4 {
     position: absolute;
     border-radius: 0 0 10px 10px;
-    margin: 0 1150px;
     width: 150px;
     height: 100px;
     box-shadow: 2px 2px 0 black;
@@ -199,6 +217,18 @@ footer {
     #logoSenacBranca {
         width: 100px;
     }
+    #itens1 {
+        width: 115px;
+    }
+    #itens2 {
+        width: 115px;
+    }
+    #itens3 {
+        width: 115px;
+    }
+    #itens4 {
+        width: 115px; 
+    }   
 
     /*Header*/
     #logoSenacColorida {
@@ -245,6 +275,24 @@ footer {
     }
     #textoVit {
         font-size: 10px;
+    }
+
+    /*JavaScript*/
+    #menu1 {
+        width: 110px;
+        height: 80px;
+    }   
+    #menu2 {
+        width: 110px;
+        height: 80px;
+    }
+    #menu3 {
+        width: 110px;
+        height: 80px;
+    }
+    #menu4 {
+        width: 110px;
+        height: 80px;
     }
     
 }
