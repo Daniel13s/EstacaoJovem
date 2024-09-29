@@ -17,7 +17,6 @@ nav {
     background-color: #017DC8;
     text-align: center;
     margin: -10px -7px 50px;
-    padding: 20px 300px 20px 300px;
 }
 #logoSenacBranca {
     margin: 10px 0 30px;
@@ -45,13 +44,13 @@ header {
 #dataEvento {
     font-family: jetbrainsmono;
     font-size: 25px;
-    margin-left: 600px;
+    margin-left: 40%;
 }
 #tituloPrincipal {
     font-family: jersey25;
     font-size: 120px;
     letter-spacing: 4px;
-    margin: -20px 0px 50px 0px;
+    margin: -20px 80px 50px 80px;
 }
 
 /*Main*/
@@ -59,37 +58,38 @@ main {
     text-align: center;
 }
 video {
-    margin: 50px;
+    margin: auto;
+    width: 90%;
     border-radius: 50px;
 }
 #sobreOProjeto {
     font-family: jersey25;
     font-size: 70px;
+    margin-top: 50px;
 }
 #textoDoProjeto {
     font-family: jetbrainsmono;
-    margin: 0 200px 0 200px;
+    margin: 100px 150px -100px 150px;
     text-align: justify;
     font-size: 25px;
 }
 #setaSenac {
     position: absolute;
-    margin-top: -50px;
-    margin-left: 150px;
+    width: 20%;
+    margin-left: 8%;
     display: flex;
 }
 #setaSenacBaixo {
     position: absolute;
+    width: 20%;
     transform: rotate(180deg);
-    right: 150px;
-    top: 2000px;
+    right: 5%;
 }
 article {
     background-color: #F56D20;
-    margin: 200px -7px -300px;
-    height: 1400px;
+    margin: 300px -7px 0 -7px;
     border-radius: 100px 100px 0 0;
-    padding: 100px 0 150px 0;
+    padding: 100px 0 100px;
 }
 #oqueVemPorAi {
     font-family: jersey25;
@@ -98,51 +98,107 @@ article {
 #textoDDS {
     font-family: jetbrainsmono;
     font-size: 25px;
-    margin: 0 150px 0 400px;
+    margin: 0 10% 0 35%;
     text-align: left;
 }
 #logoDoacaoDigitalSolidaria{
     position: absolute;
-    left: 140px;
-    top: 2570px;
+    margin-top: -5%;
+    left: 15%;
+    width: 20%;
 }
 #logoEcoCircuito {
     position: absolute;
-    left: 1000px;
-    top: 2850px;
+    width: 20%;
+    left: 65%;
+    margin-top: -4%;
 }
 #textoEcoCircuito {
     font-family: jetbrainsmono;
     font-size: 25px;
-    margin: 120px 400px 0 200px;
+    margin: 10% 35% 0 10%;
     text-align: right;
 }
 #logoGuiaCognitivo {
     position: absolute;
-    left: 140px;
-    top: 3100px;
+    width: 17%;
+    right: 67%;
+    margin-top: -1%;
 }
 #textoGC {
     font-family: jetbrainsmono;
     font-size: 25px;
-    margin: 70px 150px 0 410px;
+    margin: 10% 10% 0 35%;
     text-align: left;
 }
 #logoVit {
     position: absolute;
-    left: 1000px;
-    top: 3320px;
+    margin-top: -2%;
+    width: 17%;
+    left: 65%;
 }
 #textoVit {
     font-family: jetbrainsmono;
     font-size: 25px;
-    margin: 50px 400px 0 200px;
+    margin: 10% 35% 0 10%;
     text-align: right;
 }
 
 /*Footer*/
 footer {
     background-color: #017DC8;
-    margin: 0 -8px -8px;
+    margin: 0 -8px -200px;
     box-shadow: 0 0 30px rgb(49, 49, 49);
+}
+.logosBrancas {
+    width: 20%;
+}
+
+@media screen and (max-width: 980px){
+    #logoSenacBranca {
+        width: 100px;
+    }
+    #logoSenacColorida {
+        width: 200px;
+    }
+    video {
+        border-radius: 15px;
+    }
+    #tituloPrincipal {
+        font-size: 50px;
+        margin-inline: 40px;
+    }
+    #dataEvento {
+        font-size: 15px;
+        margin-left: 25%;
+        margin-block-end: 15px;
+    }
+    #sobreOProjeto {
+        font-size: 50px;
+    }
+    #textoDoProjeto {
+        margin: 0 50px -20px 50px;
+        font-size: 17px;
+    }
+    article {
+        margin-top: 150px;
+        margin: 20% -8px 0 -8px;
+    }
+    #oqueVemPorAi {
+        font-size: 40px;
+        margin-top: -10px;
+    }
+    #textoDDS {
+        font-size: 10px;
+    }
+    #textoEcoCircuito {
+        font-size: 10px;
+    }
+    #textoGC {
+        font-size: 10px;
+    }
+    #textoVit {
+        font-size: 10px;
+    }
+    
 }
