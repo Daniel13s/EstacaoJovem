@@ -218,16 +218,16 @@ footer {
         width: 100px;
     }
     #itens1 {
-        width: 115px;
+        width: 100px;
     }
-    #itens2 {
-        width: 115px;
+    #itens2{
+        width: 100px;
     }
     #itens3 {
-        width: 115px;
+        width: 100px;
     }
     #itens4 {
-        width: 115px; 
+        width: 100px; 
     }   
 
     /*Header*/
@@ -279,19 +279,19 @@ footer {
 
     /*JavaScript*/
     #menu1 {
-        width: 110px;
+        width: 90px;
         height: 80px;
     }   
     #menu2 {
-        width: 110px;
+        width: 90px;
         height: 80px;
     }
     #menu3 {
-        width: 110px;
+        width: 90px;
         height: 80px;
     }
     #menu4 {
-        width: 110px;
+        width: 90px;
         height: 80px;
     }
     
