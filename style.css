@@ -155,9 +155,15 @@ footer {
 }
 
 @media screen and (max-width: 980px){
+    /*Nav*/
+    input {
+        font-size: 10px;
+    }
     #logoSenacBranca {
         width: 100px;
     }
+
+    /*Header*/
     #logoSenacColorida {
         width: 200px;
     }
@@ -173,6 +179,8 @@ footer {
         margin-left: 25%;
         margin-block-end: 15px;
     }
+
+    /*Main*/
     #sobreOProjeto {
         font-size: 50px;
     }
