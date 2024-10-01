@@ -62,6 +62,7 @@ header {
     margin: 20px -8px 80px;
     padding: 20px;
     box-shadow: 0 0 20px rgb(63, 63, 63);
+    height: 200px;
 }
 #dataEvento {
     font-family: jetbrainsmono;
