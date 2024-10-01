@@ -379,10 +379,15 @@ aside {
     }
     50% {
         opacity: 0;
+        padding: 0;
     }
     70% {
         opacity: 0;
-        padding: 0;
+        padding-right: 0px;
+    }
+    85% {
+        opacity: 100%;
+        padding-left: 5px;
     }
     90% {
         opacity: 100%;
@@ -408,7 +413,7 @@ header {
     opacity: 0;
     width: 150px;
     height: 90px;
-    margin: 20px 0 50px 200px;
+    margin: 20px -10px 50px 200px;
     display: flex;
     justify-content: center;
     animation: logosenac 3s infinite;
