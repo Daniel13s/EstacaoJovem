@@ -458,7 +458,7 @@ main {
   margin: 50px 80px;
   padding-top: 150px;
   border-radius: 100px 100px 0 0;
-  padding-bottom: 500px;
+  padding-bottom: 30%;
   box-shadow: 0 0 20px gray;
   height: 500px;
 }
@@ -603,23 +603,30 @@ footer {
 
 @media screen and (max-width: 980px){
     /*Nav*/
+    nav {
+      height: 110px;
+      padding-top: 20px;
+
+    }
     input {
         font-size: 10px;
+        margin-top: 30px;
     }
-    #logoSenacBranca {
-        width: 100px;
+    #botao5 {
+      margin-top: 30px;
+      font-size: 12px;
     }
     #itens1 {
-        width: 100px;
+        width: 80px;
     }
     #itens2{
-        width: 100px;
+        width: 80px;
     }
     #itens3 {
-        width: 100px;
+        width: 80px;
     }
     #itens4 {
-        width: 100px; 
+        width: 80px; 
     }   
 
     /*Header*/
@@ -636,14 +643,13 @@ footer {
         border-radius: 15px;
     }
     #tituloPrincipal {
-        font-size: 50px;
-        margin-inline: 40px;
+        font-size: 40px;
+        margin-left: 0;
+        width: 100%;
     }
     #dataEvento {
         font-size: 15px;
-        margin-left: 25%;
-        margin-top: -100px;
-        margin-block-end: 20px;
+        margin-top: -50px;
     }
 
     /*Main*/
@@ -655,9 +661,11 @@ footer {
         margin: 0 50px -20px 50px;
         font-size: 15px;
     }
+    #setaSenacBaixo {
+      margin-right: 10%;
+    }
     article {
-        margin-top: 150px;
-        margin: 20% -8px 0 -8px;
+        margin: -200px -8px 0 -8px;
     }
     #oqueVemPorAi {
         font-size: 40px;
