@@ -683,6 +683,10 @@ footer {
     #textoVit {
         font-size: 12px;
     }
+    #textoGeral {
+      margin-left: 0;
+      margin-right: 0;
+    }
 
     /*JavaScript*/
     #menu1 {
