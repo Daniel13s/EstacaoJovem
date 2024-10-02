@@ -344,9 +344,6 @@ nav {
     text-align: center;
     margin: -10px -7px 50px -7px;
 }
-#logoSenacBranca {
-    margin: 10px 0 30px;
-}
 input {
     border: none;
     background-color: #017DC8;
@@ -433,8 +430,10 @@ header {
 }
 #dataEvento {
     font-family: jetbrainsmono;
-    font-size: 25px;
-    margin-left: 40%;
+    font-size: 20px;
+    margin-top: -50px;
+    right: 1500px;
+    margin-left: 50%;
 }
 #tituloPrincipal {
     font-family: jersey25;
@@ -447,9 +446,16 @@ header {
 main {
     text-align: center;
 }
+#textoGeral {
+  background-color: white;
+  color: #2410CB;
+  margin: 0 -8px;
+  box-shadow: 0 0 20px gray;
+  height: 500px;
+}
 video {
     margin: auto;
-    width: 90%;
+    width: 70%;
     border-radius: 50px;
 }
 #sobreOProjeto {
@@ -459,7 +465,7 @@ video {
 }
 #textoDoProjeto {
     font-family: jetbrainsmono;
-    margin: 120px 150px -100px 150px;
+    margin: 120px 200px -100px 200px;
     text-align: justify;
     font-size: 25px;
 }
