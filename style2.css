@@ -95,7 +95,12 @@ main {
 }
 ol {
     text-align: left;
+    font-family: jetbrainsmono;
 }
 ul {
     text-align: left;
+    font-family: jetbrainsmono;
+}
+p {
+    font-family: jetbrainsmono;
 }
