@@ -7,6 +7,7 @@
     font-family: jersey25;
     src: url(font/Jersey_25/Jersey25-Regular.ttf);
 }
+
 /*ANIMAÇÃO COMPLEXA DEMAIS*/
 .wrapper{
     position: absolute;
@@ -341,6 +342,7 @@ input {
     border: none;
     background-color: #017DC8;
     color: white;
+    z-index: 3;
 }
 aside {
     display: flex;
@@ -536,35 +538,39 @@ footer {
 #menu1 {
     position: absolute;
     border-radius: 0 0 10px 10px;
-    width: 150px;
-    height: 100px;
-    box-shadow: 2px 2px 0 black;
+    width: 150px;    top: -50px;
+    height: 150px;
     background-color: #017DC8;
+    z-index: 1;
 }
 #menu2 {
     position: absolute;
     border-radius: 0 0 10px 10px;
     width: 150px;
-    height: 100px;
-    box-shadow: 2px 2px 0 black;
+    top: -50px;
+    height: 150px;
     background-color: #017DC8;
+    z-index: 1;
 }
 #menu3 {
     position: absolute;
     border-radius: 0 0 10px 10px;
     width: 150px;
-    height: 100px;
-    box-shadow: 2px 2px 0 black;
+    top: -50px;
+    height: 150px;
     background-color: #017DC8;
+    z-index: 1;
 }
 #menu4 {
     position: absolute;
     border-radius: 0 0 10px 10px;
     width: 150px;
-    height: 100px;
-    box-shadow: 2px 2px 0 black;
+    top: -50px;
+    height: 150px;
     background-color: #017DC8;
+    z-index: 1;
 }
+
 @media screen and (max-width: 980px){
     /*Nav*/
     input {
@@ -637,19 +643,19 @@ footer {
     /*JavaScript*/
     #menu1 {
         width: 90px;
-        height: 80px;
+        height: 120px;
     }   
     #menu2 {
         width: 90px;
-        height: 80px;
+        height: 120px;
     }
     #menu3 {
         width: 90px;
-        height: 80px;
+        height: 120px;
     }
     #menu4 {
         width: 90px;
-        height: 80px;
+        height: 120px;
     }
     
 }
