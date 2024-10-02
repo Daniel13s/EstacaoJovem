@@ -333,6 +333,8 @@ html {
 body {
     background-image: url('images/mulherPensando.webp');
     color: white;
+    display: block;
+    
 }
 /*Navegação*/
 nav {
