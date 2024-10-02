@@ -16,7 +16,8 @@ html {
 .wrapper{
     position: absolute;
     float: left;
-    margin: 140px 100px;
+    margin: 100px 65px 140px 0;
+    zoom: 150%;
   }
 
   .line{
@@ -337,7 +338,7 @@ body {
 nav {
     background-color: #017DC8;
     text-align: center;
-    margin: -10px -7px 50px;
+    margin: -10px -7px 50px -7px;
 }
 #logoSenacBranca {
     margin: 10px 0 30px;
@@ -360,19 +361,19 @@ aside {
     justify-content: space-around;
 }
 #itens1 {
-    width: 160px;
+    width: 250px;
     height: 100px;
 }
 #itens2 {
-    width: 160px;
+    width: 250px;
     height: 100px;
 }
 #itens3 {
-    width: 160px;
+    width: 250px;
     height: 100px;
 }
 #itens4 {
-    width: 160px;
+    width: 250px;
     height: 100px;
 }
 
@@ -411,16 +412,16 @@ header {
 }
 #destaque {
     width: auto;
-    margin: -50px 0 70px -200px;
+    margin: 50px 0 150px -200px;
     height: 200px;
     display: flex;
     justify-content: center;
 }
 #logoSenacColorida {
     opacity: 0;
-    width: 150px;
-    height: 90px;
-    margin: 20px -10px 50px 200px;
+    width: 200px;
+    height: 120px;
+    margin: 20px -10px -500px 200px;
     display: flex;
     justify-content: center;
     animation: logosenac 3s infinite;
@@ -532,7 +533,7 @@ article {
 /*Footer*/
 footer {
     background-color: #017DC8;
-    margin: 0 -8px -200px;
+    margin: 0 -7px -50px;
     box-shadow: 0 0 30px rgb(49, 49, 49);
 }
 .logosBrancas {
@@ -543,36 +544,36 @@ footer {
 #menu1 {
     position: absolute;
     border-radius: 0 0 10px 10px;
-    width: 150px;    
+    width: 250px;    
     top: -40px;
-    height: 150px;
+    height: 200px;
     background-color: #017DC8;
     z-index: 1;
 }
 #menu2 {
     position: absolute;
     border-radius: 0 0 10px 10px;
-    width: 150px;
+    width: 250px;
     top: -40px;
-    height: 150px;
+    height: 200px;
     background-color: #017DC8;
     z-index: 1;
 }
 #menu3 {
     position: absolute;
     border-radius: 0 0 10px 10px;
-    width: 150px;
+    width: 250px;
     top: -40px;
-    height: 150px;
+    height: 200px;
     background-color: #017DC8;
     z-index: 1;
 }
 #menu4 {
     position: absolute;
     border-radius: 0 0 10px 10px;
-    width: 150px;
+    width: 250px;
     top: -40px;
-    height: 150px;
+    height: 200px;
     background-color: #017DC8;
     z-index: 1;
 }
@@ -599,9 +600,14 @@ footer {
     }   
 
     /*Header*/
+    .wrapper {
+      zoom: normal;
+      margin: 115px 100px 0 100px;
+    }
+
     #logoSenacColorida {
-        width: 200px;
-        height: 120px;
+        width: 150px;
+        height: 90px;
     }
     video {
         border-radius: 15px;
@@ -613,7 +619,8 @@ footer {
     #dataEvento {
         font-size: 15px;
         margin-left: 25%;
-        margin-block-end: 15px;
+        margin-top: -100px;
+        margin-block-end: 20px;
     }
 
     /*Main*/
@@ -649,19 +656,19 @@ footer {
     /*JavaScript*/
     #menu1 {
         width: 90px;
-        height: 110px;
+        height: 150px;
     }   
     #menu2 {
         width: 90px;
-        height: 110px;
+        height: 150px;
     }
     #menu3 {
         width: 90px;
-        height: 110px;
+        height: 150px;
     }
     #menu4 {
         width: 90px;
-        height: 110px;
+        height: 150px;
     }
     
 }
