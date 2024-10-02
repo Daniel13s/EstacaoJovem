@@ -331,6 +331,7 @@ html {
 /*FIM DA ANIMAÇÃO COMPLEXA*/
 
 body {
+    background-image: url('images/mulherPensando.webp');
     background-color: #01AABA;
     color: white;
 }
