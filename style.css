@@ -332,6 +332,8 @@ html {
 
 body {
     background-image: url('images/mulherPensando.webp');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
     color: white;
     display: block;
     
