@@ -357,9 +357,15 @@ aside {
 }
 #botoes {
     position: absolute;
-    width: 100%;
+    width: 81%;
     display: flex;
     justify-content: space-around;
+}
+#botao5 {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 #itens1 {
     width: 250px;
@@ -449,7 +455,10 @@ main {
 #textoGeral {
   background-color: white;
   color: #2410CB;
-  margin: 0 -8px;
+  margin: 50px -8px;
+  padding-top: 150px;
+  border-radius: 100px 100px 0 0;
+  padding-bottom: 400px;
   box-shadow: 0 0 20px gray;
   height: 500px;
 }
@@ -461,17 +470,18 @@ video {
 #sobreOProjeto {
     font-family: jersey25;
     font-size: 70px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 #textoDoProjeto {
     font-family: jetbrainsmono;
-    margin: 120px 200px -100px 200px;
+    margin: 120px 200px 0 200px;
     text-align: justify;
     font-size: 25px;
 }
 #setaSenac {
     position: absolute;
     width: 20%;
+    margin-top: -100px;
     margin-left: 8%;
     display: flex;
 }
@@ -483,7 +493,7 @@ video {
 }
 article {
     background-color: #F56D20;
-    margin: 300px -7px 0 -7px;
+    margin: -150px -7px 0 -7px;
     border-radius: 100px 100px 0 0;
     padding: 100px 0 100px;
 }
@@ -577,6 +587,7 @@ footer {
     height: 200px;
     background-color: #017DC8;
     z-index: 1;
+    margin-right: 50%;
 }
 #menu4 {
     position: absolute;
@@ -586,7 +597,9 @@ footer {
     height: 200px;
     background-color: #017DC8;
     z-index: 1;
+    margin-right: 100%;
 }
+
 
 @media screen and (max-width: 980px){
     /*Nav*/
