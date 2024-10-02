@@ -1,0 +1,101 @@
+/*Fontes*/
+@font-face {
+    font-family: jetbrainsmono;
+    src: url(font/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Bold.ttf);
+}
+@font-face {
+    font-family: jersey25;
+    src: url(font/Jersey_25/Jersey25-Regular.ttf);
+}
+
+
+body {
+    background-image: url('images/mulherPensando.webp');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+nav {
+    background-color: #017DC8;
+    text-align: center;
+    margin: -10px -7px 50px -7px;
+}
+input {
+    border: none;
+    background-color: #017DC8;
+    color: white;
+    cursor: pointer;
+    z-index: 3;
+}
+aside {
+    display: flex;
+    justify-content: space-around;
+}
+#botoes {
+    position: absolute;
+    width: 81%;
+    display: flex;
+    justify-content: space-around;
+}
+#botao5 {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+#itens1 {
+    width: 250px;
+    height: 100px;
+}
+#itens2 {
+    width: 250px;
+    height: 100px;
+}
+#itens3 {
+    width: 250px;
+    height: 100px;
+}
+#itens4 {
+    width: 250px;
+    height: 100px;
+}
+#dataEvento {
+    font-family: jetbrainsmono;
+    font-size: 20px;
+    margin-top: -50px;
+    right: 1500px;
+    margin-left: 50%;
+}
+#tituloPrincipal {
+    font-family: jersey25;
+    font-size: 120px;
+    letter-spacing: 4px;
+    margin: -20px 80px 50px 80px;
+}
+.pagina {
+    margin: 50px;
+    width: 800px;
+    height: 800px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    padding: 20px;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+ol {
+    text-align: left;
+}
+ul {
+    text-align: left;
+}
