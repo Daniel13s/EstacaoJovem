@@ -8,6 +8,10 @@
     src: url(font/Jersey_25/Jersey25-Regular.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*ANIMAÇÃO COMPLEXA DEMAIS*/
 .wrapper{
     position: absolute;
@@ -342,6 +346,7 @@ input {
     border: none;
     background-color: #017DC8;
     color: white;
+    cursor: pointer;
     z-index: 3;
 }
 aside {
