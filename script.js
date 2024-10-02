@@ -12,7 +12,17 @@ function institucional() {
         var menu1 = document.getElementById('menu1')
         menu1.parentNode.removeChild(menu1)
     }
+
+    var header = document.getElementById("header")
+    header.addEventListener("click", cancelar)
+
+    function cancelar() {
+        var menu1 = document.getElementById("menu1")
+        menu1.parentNode.removeChild(menu1)
+    }
 }
+
+
 
 function curiosidade() {
     var navegacao = document.getElementById("itens2")
@@ -26,6 +36,14 @@ function curiosidade() {
     menu2.addEventListener("mouseout", sair)
     function sair() {
         var menu2 = document.getElementById('menu2')
+        menu2.parentNode.removeChild(menu2)
+    }
+
+    var header = document.getElementById("header")
+    header.addEventListener("click", cancelar)
+
+    function cancelar() {
+        var menu2 = document.getElementById("menu2")
         menu2.parentNode.removeChild(menu2)
     }
 }
@@ -44,6 +62,14 @@ function turmas() {
         var menu3 = document.getElementById('menu3')
         menu3.parentNode.removeChild(menu3)
     }
+
+    var header = document.getElementById("header")
+    header.addEventListener("click", cancelar)
+
+    function cancelar() {
+        var menu3 = document.getElementById("menu3")
+        menu3.parentNode.removeChild(menu3)
+    }
 }
 
 function roteiroDoProjeto() {
@@ -58,6 +84,14 @@ function roteiroDoProjeto() {
     menu4.addEventListener("mouseout", sair)
     function sair() {
         var menu4 = document.getElementById('menu4')
+        menu4.parentNode.removeChild(menu4)
+    }    
+
+    var header = document.getElementById("header")
+    header.addEventListener("click", cancelar)
+
+    function cancelar() {
+        var menu4 = document.getElementById("menu4")
         menu4.parentNode.removeChild(menu4)
     }
 }
