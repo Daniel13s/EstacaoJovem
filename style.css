@@ -455,15 +455,9 @@ main {
   background-color: white;
   color: #2410CB;
   margin: 50px 80px;
-<<<<<<< HEAD
   padding-top: 100px;
   border-radius: 100px 100px 0 0;
   padding-bottom: 45%;
-=======
-  padding-top: 150px;
-  border-radius: 100px 100px 0 0;
-  padding-bottom: 30%;
->>>>>>> 679e157fb3d35c246a0925371961cbef00f780bb
   box-shadow: 0 0 20px gray;
   height: 500px;
 }
@@ -479,11 +473,7 @@ video {
 }
 #textoDoProjeto {
     font-family: jetbrainsmono;
-<<<<<<< HEAD
-    margin: 120px 100px 0 100px;
-=======
     margin: 120px 200px 0 200px;
->>>>>>> 679e157fb3d35c246a0925371961cbef00f780bb
     text-align: justify;
     font-size: 20px;
 }
@@ -502,11 +492,7 @@ video {
 }
 article {
     background-color: #F56D20;
-<<<<<<< HEAD
-    margin: -90px -7px 0 -7px;
-=======
     margin: -150px -7px 0 -7px;
->>>>>>> 679e157fb3d35c246a0925371961cbef00f780bb
     border-radius: 100px 100px 0 0;
     padding: 100px 0 100px;
 }
@@ -623,23 +609,6 @@ a {
 @media screen and (max-width: 980px){
     /*Nav*/
     nav {
-<<<<<<< HEAD
-      height: 90px;
-      padding-top: 50px;
-
-    }
-    input {
-        font-size: 11px;
-        margin-top: 30px;
-    }
-    #botao4 {
-      font-size: 11px;
-      margin-top: 30px;
-    }
-    #botao5 {
-      margin-top: 30px;
-      font-size: 11px;
-=======
       height: 110px;
       padding-top: 20px;
 
@@ -651,7 +620,6 @@ a {
     #botao5 {
       margin-top: 30px;
       font-size: 12px;
->>>>>>> 679e157fb3d35c246a0925371961cbef00f780bb
     }
     #itens1 {
         width: 80px;
@@ -681,20 +649,12 @@ a {
         width: auto;
     }
     #tituloPrincipal {
-<<<<<<< HEAD
-        font-size: 30px;
-=======
         font-size: 40px;
->>>>>>> 679e157fb3d35c246a0925371961cbef00f780bb
         margin-left: 0;
         width: 100%;
     }
     #dataEvento {
-<<<<<<< HEAD
-        font-size: 10px;
-=======
         font-size: 15px;
->>>>>>> 679e157fb3d35c246a0925371961cbef00f780bb
         margin-top: -50px;
     }
 
@@ -711,11 +671,7 @@ a {
       margin-right: 10%;
     }
     article {
-<<<<<<< HEAD
-        margin: -150px -8px 0 -8px;
-=======
         margin: -200px -8px 0 -8px;
->>>>>>> 679e157fb3d35c246a0925371961cbef00f780bb
     }
     #oqueVemPorAi {
         font-size: 40px;
