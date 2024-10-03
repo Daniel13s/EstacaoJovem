@@ -8,6 +8,32 @@
     src: url(font/Jersey_25/Jersey25-Regular.ttf);
 }
 
+@keyframes roteiro2 {
+    0% {
+        width: 2px;
+        height: 2px;
+    }
+    50% {
+        width: 200px;
+        background-color: green;
+    }
+    100% {
+        width: 0px;
+    }
+}
+@keyframes roteiro {
+    0% {
+        width: 2px;
+        height: 2px;
+    }
+    50% {
+        width: 200px;
+        background-color: green;
+    }
+    100% {
+        width: 0px;
+    }
+}
 
 body {
     background-image: url('images/mulherPensando.webp');
@@ -77,21 +103,42 @@ aside {
     letter-spacing: 4px;
     margin: -20px 80px 50px 80px;
 }
-.pagina {
-    margin: 50px;
-    width: 800px;
-    height: 800px;
-    border-radius: 50px;
+h1 {
     text-align: center;
-    font-size: 25px;
-    background-color: white;
-    padding: 20px;
+    font-size: 80px;
+    font-family: jersey25;
+}
+h2 {
+    font-family: jersey25;
+}
+.pagina {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    text-align: justify;
+    font-size: 20px;
+    background-color: rgb(251, 238, 253);
+    padding: 30px;
     color: black;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.pagina:hover {
+    zoom: 110%;
+    height: auto;
+    z-index: 1;
+    box-shadow: 0 0 20px black;
+
 }
 
 main {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    height: auto;
 }
 ol {
     text-align: left;
@@ -103,4 +150,94 @@ ul {
 }
 p {
     font-family: jetbrainsmono;
+}
+#pag1 {
+    left: 10px;
+}
+#pag3 {
+    right: 10px;
+}
+
+footer {
+    background-color: #017DC8;
+    margin: 0 -8px -20px;
+    box-shadow: 0 0 30px rgb(49, 49, 49);
+    padding-left: 15%;
+    bottom: auto;
+}
+.logosBrancas {
+    width: 20%;
+}
+
+@media screen and (max-width: 980px){
+    #tituloPrincipal {
+        font-size: 40px;
+        margin-top: auto;
+    }
+    #dataEvento {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+}
+
+#linha-de-cima {
+    width: 2px;
+    height: 2px;
+    background-color: #017DC8;
+    animation: roteiro;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-left: 40%;
+    margin-bottom: -50px;
+}
+#linha-de-baixo {
+    width: 2px;
+    height: 2px;
+    background-color: #017DC8;
+    animation: roteiro2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-top: -50px;
+}
+
+@media screen and (max-width: 980px){
+    /*Nav*/
+    nav {
+      height: 100px;
+      padding-top: 50px;
+
+    }
+    input {
+        font-size: 11px;
+        height: 20px;
+    }
+    #botao4 {
+      font-size: 11px;
+      margin-top: 2px;
+    }
+    #botao5 {
+      font-size: 11px;
+      margin-top: 2px;
+    }
+    #itens1 {
+        width: 80px;
+    }
+    #itens2{
+        width: 80px;
+    }
+    #itens3 {
+        width: 80px;
+    }
+    #itens4 {
+        width: 80px; 
+    }   
+    #tituloPrincipal {
+        font-size: 30px;
+        margin-left: 0;
+        width: 100%;
+    }
+    #dataEvento {
+        font-size: 10px;
+        margin-top: -50px;
+    }
 }

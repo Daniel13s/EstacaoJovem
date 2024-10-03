@@ -71,27 +71,3 @@ function turmas() {
         menu3.parentNode.removeChild(menu3)
     }
 }
-
-function roteiroDoProjeto() {
-    var navegacao = document.getElementById("itens4")
-
-    var menu4 = document.createElement('div')
-    menu4.setAttribute('id', 'menu4')
-    itens4.appendChild(menu4)
-
-
-    //Excluindo Itens
-    menu4.addEventListener("mouseout", sair)
-    function sair() {
-        var menu4 = document.getElementById('menu4')
-        menu4.parentNode.removeChild(menu4)
-    }    
-
-    var header = document.getElementById("header")
-    header.addEventListener("click", cancelar)
-
-    function cancelar() {
-        var menu4 = document.getElementById("menu4")
-        menu4.parentNode.removeChild(menu4)
-    }
-}
