@@ -177,7 +177,7 @@ footer {
 @media screen and (max-width: 980px){
     /*Nav*/
     nav {
-      height: 90px;
+      height: 105px;
     }
     input {
         font-size: 11px;
