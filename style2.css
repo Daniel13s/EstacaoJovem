@@ -8,33 +8,6 @@
     src: url(font/Jersey_25/Jersey25-Regular.ttf);
 }
 
-@keyframes roteiro2 {
-    0% {
-        width: 2px;
-        height: 2px;
-    }
-    50% {
-        width: 200px;
-        background-color: green;
-    }
-    100% {
-        width: 0px;
-    }
-}
-@keyframes roteiro {
-    0% {
-        width: 2px;
-        height: 2px;
-    }
-    50% {
-        width: 200px;
-        background-color: green;
-    }
-    100% {
-        width: 0px;
-    }
-}
-
 body {
     background-image: url('images/mulherPensando.webp');
     background-repeat: no-repeat;
@@ -118,7 +91,7 @@ h2 {
     margin-bottom: 100px;
     border-radius: 50px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 15px;
     background-color: rgb(251, 238, 253);
     padding: 30px;
     color: black;
@@ -184,9 +157,6 @@ footer {
     width: 2px;
     height: 2px;
     background-color: #017DC8;
-    animation: roteiro;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
     margin-left: 40%;
     margin-bottom: -50px;
 }
@@ -194,9 +164,6 @@ footer {
     width: 2px;
     height: 2px;
     background-color: #017DC8;
-    animation: roteiro2;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
     margin-top: -50px;
 }
 
