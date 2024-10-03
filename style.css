@@ -344,6 +344,7 @@ nav {
     margin: -10px -7px 50px -7px;
 }
 input {
+  font-family: jetbrainsmono;
     border: none;
     background-color: #017DC8;
     color: white;
@@ -360,11 +361,17 @@ aside {
     display: flex;
     justify-content: space-around;
 }
+#botao1 {
+  font-family: jetbrainsmono;
+}
 #botao5 {
+  font-family: jetbrainsmono;
   text-decoration: none;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+}
+#botao4 {
+  font-family: jetbrainsmono;
 }
 #itens1 {
     width: 250px;
@@ -614,16 +621,19 @@ a {
 
     }
     input {
+        font-family: jetbrainsmano;
         font-size: 10px;
         margin-top: 30px;
     }
     #botao4 {
       font-size: 12px;
       margin-top: 30px;
+      font-family: jetbrainsmano;
     }
     #botao5 {
       margin-top: 30px;
       font-size: 12px;
+      font-family: jetbrainsmano;
     }
     #itens1 {
         width: 80px;
