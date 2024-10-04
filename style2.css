@@ -187,6 +187,9 @@ footer {
         margin-left: 0;
         width: 100%;
     }
+    #tituloPagina {
+        font-size: 50px;
+    }
     #dataEvento {
         font-size: 15px;
         margin-top: -50px;
