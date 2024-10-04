@@ -81,7 +81,7 @@ aside {
     font-family: jersey25;
     font-size: 120px;
     letter-spacing: 4px;
-    margin: -20px 80px 50px 80px;
+    margin: -5px 80px 50px 80px;
 }
 h1 {
     text-align: center;
@@ -150,36 +150,25 @@ footer {
 }
 
 @media screen and (max-width: 980px){
-    #tituloPrincipal {
-        font-size: 40px;
-        margin-top: auto;
-    }
-    #dataEvento {
-        font-size: 15px;
-        margin-bottom: 30px;
-    }
-}
-
-@media screen and (max-width: 980px){
     /*Nav*/
     nav {
-      height: 105px;
+      height: auto;
     }
     input {
-        font-size: 11px;
-        height: 20px;
-        margin-top: -5px;
+        font-size: 10px;
+        margin-top: 30px;
     }
     #botao1 {
+        margin-top: 30px;
         font-size: 11px;
     }
     #botao4 {
       font-size: 11px;
-      margin-top: -2px;
+      margin-top: 30px;
     }
     #botao5 {
       font-size: 11px;
-      margin-top: -2px;
+      margin-top: 30px;
     }
     #itens1 {
         width: 80px;
@@ -199,7 +188,7 @@ footer {
         width: 100%;
     }
     #dataEvento {
-        font-size: 10px;
+        font-size: 15px;
         margin-top: -50px;
     }
 }
