@@ -27,7 +27,7 @@ nav {
 input {
     font-family: jetbrainsmono;
     border: none;
-    background-color: #017DC8;
+    background-color: transparent;
     color: white;
     cursor: pointer;
     z-index: 3;
@@ -158,20 +158,6 @@ footer {
         font-size: 15px;
         margin-bottom: 30px;
     }
-}
-
-#linha-de-cima {
-    width: 2px;
-    height: 2px;
-    background-color: #017DC8;
-    margin-left: 40%;
-    margin-bottom: -50px;
-}
-#linha-de-baixo {
-    width: 2px;
-    height: 2px;
-    background-color: #017DC8;
-    margin-top: -50px;
 }
 
 @media screen and (max-width: 980px){
