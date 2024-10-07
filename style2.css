@@ -108,7 +108,7 @@ h2 {
     padding: 30px;
     color: black;
     flex-grow: 1;
-    flex-basis: 200;
+    flex-basis: 500;
 }
 .pagina:hover {
     zoom: 110%;
