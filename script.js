@@ -24,17 +24,17 @@ function turmas() {
     
     var turmas = document.createElement('p')
     turmas.setAttribute('id', 'txtTurma')
-    turmas.innerHTML = 'Turma de Aprendizagem de Sreviços Administrativos'
+    turmas.innerHTML = 'Turma de Aprendizagem de Serviços Administrativos'
     menu3.appendChild(turmas)
     
     var turmas = document.createElement('p')
     turmas.setAttribute('id', 'txtTurma2')
-    turmas.innerHTML = 'fodaaaa'
+    turmas.innerHTML = 'Turma de Aprendizagem de Serviços Logísticos'
     menu3.appendChild(turmas)
     
     var turmas = document.createElement('p')
     turmas.setAttribute('id', 'txtTurma3')
-    turmas.innerHTML = 'fodaaaa'
+    turmas.innerHTML = 'Turma de Aprendizagem de Atacado e Varejo'
     menu3.appendChild(turmas)
     
     itens3.appendChild(menu3)
