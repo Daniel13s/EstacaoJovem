@@ -343,6 +343,10 @@ nav {
     text-align: center;
     margin: -10px -7px 50px -7px;
 }
+#txtTurma {
+    font-family: jetbrainsmono;
+    margin-top: 20px;
+}
 input {
     font-family: jetbrainsmono;
     border: none;
