@@ -478,7 +478,7 @@ main {
   box-shadow: 0 0 20px gray;
   height: 500px;
 }
-video {
+#video {
     margin: auto;
     width: 50%;
     border-radius: 50px;
