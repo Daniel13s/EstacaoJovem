@@ -7,12 +7,6 @@ function curiosidade() {
 
 
     //Excluindo Itens
-    menu2.addEventListener("mouseout", sair)
-    function sair() {
-        var menu2 = document.getElementById('menu2')
-        menu2.parentNode.removeChild(menu2)
-    }
-
     var header = document.getElementById("header")
     header.addEventListener("click", cancelar)
 
