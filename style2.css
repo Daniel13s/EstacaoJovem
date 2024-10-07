@@ -75,15 +75,7 @@ aside {
     width: 250px;
     height: 100px;
 }
-#pag11{
-    height: auto;
-}
-#pag12{
-    height: auto;
-}
-#pag13{
-    height: auto;
-}
+
 #dataEvento {
     font-family: jetbrainsmono;
     font-size: 20px;
@@ -200,5 +192,14 @@ footer {
     #dataEvento {
         font-size: 15px;
         margin-top: -50px;
+    }
+    #pag11{
+        height: 1000px;
+    }
+    #pag12{
+        height: 1000px;
+    }
+    #pag13{
+        height: 1000px;
     }
 }
