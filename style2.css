@@ -108,7 +108,7 @@ h2 {
     padding: 30px;
     color: black;
     flex-grow: 1;
-    flex-basis: 500;
+    flex-basis: 200;
 }
 .pagina:hover {
     zoom: 110%;
@@ -125,19 +125,12 @@ main {
     text-align: center;
     height: auto;
 }
-ol {
-    text-align: left;
-    font-family: jetbrainsmono;
-}
-ul {
-    text-align: left;
-    font-family: jetbrainsmono;
-}
 p {
     font-family: jetbrainsmono;
 }
 #pag1 {
     left: 10px;
+    
 }
 #pag3 {
     right: 10px;
