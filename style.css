@@ -574,7 +574,7 @@ article {
 #textoBC {
     font-family: jetbrainsmono;
     font-size: 20px;
-    margin: 10% 10% 0 35%;
+    margin: 10% 10% 30px 35%;
     text-align: left;
 }
 
@@ -697,6 +697,9 @@ a {
         font-size: 12px;
     }
     #textoVit {
+        font-size: 12px;
+    }
+    #textoBC {
         font-size: 12px;
     }
     #textoGeral {
