@@ -27,6 +27,9 @@ function turmas() {
 
     var menu3 = document.createElement('div')
     menu3.setAttribute('id', 'menu3')
+    var turmas = document.createElement('p')
+    turmas.setAttribute('id', 'txtTurma')
+    turmas.innerHTML = 'fodaaaa'
     itens3.appendChild(menu3)
 
 
