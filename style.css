@@ -606,7 +606,7 @@ a {
     border-radius: 0 0 10px 10px;
     width: 250px;
     top: -40px;
-    height: 200px;
+    height: auto;
     background-color: #017DC8;
     z-index: 1;
     margin-right: 50%;
