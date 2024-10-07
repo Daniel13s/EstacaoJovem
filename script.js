@@ -35,12 +35,6 @@ function turmas() {
 
 
     //Excluindo Itens
-    menu3.addEventListener("mouseout", sair)
-    function sair() {
-        var menu3 = document.getElementById('menu3')
-        menu3.parentNode.removeChild(menu3)
-    }
-
     var header = document.getElementById("header")
     header.addEventListener("click", cancelar)
 
