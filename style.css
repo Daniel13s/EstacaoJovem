@@ -464,7 +464,7 @@ main {
   margin: 50px 80px;
   padding-top: 100px;
   border-radius: 100px 100px 0 0;
-  padding-bottom: 45%;
+  padding-bottom: 25%;
   box-shadow: 0 0 20px gray;
   height: 500px;
 }
@@ -709,6 +709,7 @@ a {
       margin-right: 0;
       padding-left: 2px;
       padding-right: 2px;
+      padding-bottom: 45%;
     }
 
     /*JavaScript*/
