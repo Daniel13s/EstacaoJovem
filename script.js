@@ -21,10 +21,22 @@ function turmas() {
 
     var menu3 = document.createElement('div')
     menu3.setAttribute('id', 'menu3')
+    
     var turmas = document.createElement('p')
     turmas.setAttribute('id', 'txtTurma')
     turmas.innerHTML = 'fodaaaa'
     menu3.appendChild(turmas)
+    
+    var turmas = document.createElement('p')
+    turmas.setAttribute('id', 'txtTurma2')
+    turmas.innerHTML = 'fodaaaa'
+    menu3.appendChild(turmas)
+    
+    var turmas = document.createElement('p')
+    turmas.setAttribute('id', 'txtTurma3')
+    turmas.innerHTML = 'fodaaaa'
+    menu3.appendChild(turmas)
+    
     itens3.appendChild(menu3)
 
 
