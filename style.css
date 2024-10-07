@@ -567,6 +567,7 @@ article {
 }
 #logoBC {
     position: absolute;
+    border-radius: 50px;
     width: 17%;
     right: 67%;
     margin-top: -4%;
