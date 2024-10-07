@@ -657,7 +657,7 @@ a {
     }
     video {
         border-radius: 15px;
-        width: auto;
+        width: 60%;
     }
     #tituloPrincipal {
         font-size: 30px;
