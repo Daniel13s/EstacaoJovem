@@ -30,6 +30,7 @@ function turmas() {
     var turmas = document.createElement('p')
     turmas.setAttribute('id', 'txtTurma')
     turmas.innerHTML = 'fodaaaa'
+    menu3.appendChild(turmas)
     itens3.appendChild(menu3)
 
 
