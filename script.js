@@ -24,7 +24,7 @@ function turmas() {
     
     var turmas = document.createElement('p')
     turmas.setAttribute('id', 'txtTurma')
-    turmas.innerHTML = 'fodaaaa'
+    turmas.innerHTML = 'Turma de Aprendizagem de Sreviços Administrativos'
     menu3.appendChild(turmas)
     
     var turmas = document.createElement('p')
