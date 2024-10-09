@@ -149,6 +149,9 @@ footer {
 .logosBrancas {
     width: 20%;
 }
+#BCbranca {
+    margin-bottom: 20px;
+}
 
 @media screen and (max-width: 980px){
     /*Nav*/
@@ -207,4 +210,7 @@ footer {
     #pag13{
         height: 1000px;
     }
+    #BCbranca {
+    margin-bottom: 10px;
+}
 }
