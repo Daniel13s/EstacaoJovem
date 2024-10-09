@@ -509,7 +509,7 @@ main {
 }
 article {
     background-color: #F56D20;
-    margin: -150px -7px 0 -7px;
+    margin: -100px -7px 0 -7px;
     border-radius: 100px 100px 0 0;
     padding: 100px 0 100px;
 }
@@ -533,7 +533,7 @@ article {
     position: absolute;
     width: 20%;
     left: 65%;
-    margin-top: -4%;
+    margin-top: -5%;
 }
 #textoEcoCircuito {
     font-family: jetbrainsmono;
@@ -545,7 +545,7 @@ article {
     position: absolute;
     width: 17%;
     right: 67%;
-    margin-top: -4%;
+    margin-top: -5%;
 }
 #textoGC {
     font-family: jetbrainsmono;
@@ -555,7 +555,7 @@ article {
 }
 #logoVit {
     position: absolute;
-    margin-top: -2%;
+    margin-top: -5%;
     width: 17%;
     left: 65%;
 }
@@ -621,7 +621,7 @@ a {
         margin-top: 30px;
     }
     #botao1 {
-      margin-top: 37px;
+      margin-top: 30px;
       font-size: 11px;
     }
     #botao4 {
