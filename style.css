@@ -588,7 +588,9 @@ footer {
 .logosBrancas {
     width: 20%;
 }
-
+#BCbranca {
+    margin-top: 5px;
+}
 a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
