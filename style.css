@@ -339,6 +339,7 @@ body {
 }
 /*Navegação*/
 nav {
+  font-size: 2px;
     background-color: #017DC8;
     text-align: center;
     margin: -10px -7px 50px -7px;
@@ -483,6 +484,19 @@ main {
     width: 40%;
     border-radius: 20px;
 }
+#setaDireita {
+  position: absolute;
+  width: 15%;
+  left: 70%;
+  margin-top: 50px;
+}
+#setaEsquerda {
+  position: absolute;
+  width: 15%;
+  transform: rotate(180deg);
+  left: 15%;
+  margin-top: 50px;
+}
 #sobreOProjeto {
     font-family: jersey25;
     font-size: 70px;
@@ -570,7 +584,7 @@ article {
     border-radius: 300px;
     width: 17%;
     right: 67%;
-    margin-top: 2%;
+    margin-top: -4%;
 }
 #textoBC {
     font-family: jetbrainsmono;
@@ -584,14 +598,11 @@ footer {
     background-color: #017DC8;
     margin: 0 -7px -50px;
     box-shadow: 0 0 30px rgb(49, 49, 49);
-    padding-inline: 15%;
 }
 .logosBrancas {
     width: 20%;
 }
-#BCbranca {
-    margin-bottom: 20px;
-}
+
 a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -619,21 +630,17 @@ a {
         font-family: jetbrainsmono;
         font-size: 10px;
     }
-    input {
-        font-size: 10px;
-        margin-top: 30px;
-    }
     #botao1 {
       margin-top: 30px;
-      font-size: 9px;
+      font-size: 8px;
     }
     #botao4 {
-      font-size: 9px;
+      font-size: 8px;
       margin-top: 30px;
     }
     #botao5 {
       margin-top: 30px;
-      font-size: 9px;
+      font-size: 8px;
     }
     #itens1 {
         width: 80px;
@@ -661,6 +668,16 @@ a {
     #video {
         border-radius: 15px;
         width: auto;
+    }
+    #setaDireita {
+      margin-top: 120px;
+      left: 87%;
+    }
+    #setaEsquerda {
+      width: 15%;
+      transform: rotate(180deg);
+      left: -1%;
+      margin-top: 110px;
     }
     #tituloPrincipal {
         font-size: 30px;
@@ -713,8 +730,5 @@ a {
       padding-right: 2px;
       padding-bottom: 45%;
     }
-    #BCbranca {
-    margin-bottom: 10px;
-}
  
 }
