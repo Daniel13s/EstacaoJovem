@@ -16,6 +16,7 @@ body {
 }
 #video {
     margin: auto;
+    width: 35%;
     border-radius: 20px;
 }
 .unidade {
