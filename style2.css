@@ -20,6 +20,7 @@ body {
     border-radius: 20px;
 }
 #videoC {
+    width: 100%;
     display: flex;
     justify-content: center;
 }
