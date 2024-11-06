@@ -596,6 +596,7 @@ article {
 /*Footer*/
 footer {
     background-color: #017DC8;
+    padding-inline: 15%;
     margin: 0 -7px -50px;
     box-shadow: 0 0 30px rgb(49, 49, 49);
 }
