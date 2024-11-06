@@ -15,7 +15,7 @@ body {
     color: white;
 }
 #video {
-    text-align: center;
+    margin-bottom: 50px;
     width: 35%;
     border-radius: 20px;
 }
