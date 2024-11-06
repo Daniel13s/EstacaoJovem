@@ -672,10 +672,11 @@ a {
     }
     #setaDireita {
       margin-top: 120px;
+      width: 20%;
       left: 87%;
     }
     #setaEsquerda {
-      width: 15%;
+      width: 20%;
       transform: rotate(180deg);
       left: -1%;
       margin-top: 110px;
