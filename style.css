@@ -537,7 +537,7 @@ article {
     margin: 0 10% 0 35%;
     text-align: left;
 }
-#logoDoacaoDigitalSolidaria{
+#logoDoacaoDigitalSolidari{
     position: absolute;
     margin-top: -5%;
     left: 15%;
@@ -587,6 +587,19 @@ article {
     margin-top: -4%;
 }
 #textoBC {
+    font-family: jetbrainsmono;
+    font-size: 20px;
+    margin: 10% 10% 30px 35%;
+    text-align: left;
+}
+#logoBio {
+    position: absolute;
+    border-radius: 300px;
+    width: 17%;
+    right: 67%;
+    margin-top: -4%;
+}
+#textoBio {
     font-family: jetbrainsmono;
     font-size: 20px;
     margin: 10% 10% 30px 35%;
