@@ -171,6 +171,11 @@ footer {
     nav {
       height: auto;
     }
+        }
+    #video {
+        border-radius: 15px;
+        width: auto;
+    }
     .unidade {
         height: 30%;
     }
